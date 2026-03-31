@@ -3,14 +3,17 @@
 **Selección Estratégica:**
 - Núcleo del negocio (MVP) se vasa en las 6 historias definidas (HU-01 a HU-06). Estas son las historias mínimas necesarias para el funcionamiento del sistema y el cumplimiento de los requerimientos dados
 
-**Duración de cada micro-sprint:** 2 días.
-
 **División de micro-sprints**
 - Micro-sprint 1: HU-02, HU-03, HU-04
 - Micro-sprint 2: HU-06, HU-01, HU-05
+- Micro-sprint 3: mejoras del sistema construido
 
 ## Resumen de los sprints
 ### *Primer Micro-Sprint*
+
+> [!TIP]
+> **Duración estimada del micro-sprint:** 2 días.
+
 **Registro de Tiempos (Time-Tracking) — plantilla:**
 
 | Tarea | Story Points | Tiempo Real (hrs) | Commits / PR | Notas | Día de Sprint |
@@ -58,6 +61,10 @@ Este micro-sprint tuvo tiempos de retrasos surgidos por eventos externos al prop
 
 
 ### *Segundo Micro-Sprint*
+
+> [!TIP]
+> **Duración estimada del micro-sprint:** 2 días.
+
 **Registro de Tiempos (Time-Tracking) — plantilla:**
 
 | Tarea | Story Points | Tiempo Real (hrs) | Commits / PR | Notas | Día de Sprint |
@@ -99,6 +106,46 @@ Instrucciones para rellenar la plantilla:
 - **Observaciones finales:** 
 
 Debido a la división de trabajo en distintas ramas para seguir el flujo de trabajo con Git Flow, el marco de trabajo ASDD, tal cual como está construido, genera dificultades a la hora de integrar las implementaciones construidas ya que no se tiene un proceso previo de diseño UI/UX y un armado del esqueleto del proyecto, tanto frontend como backend, que todos los agentes deben seguir.
+
+### *Tercer Micro-Sprint*
+
+> [!TIP]
+> **Duración estimada del micro-sprint:** 3 días.
+
+**Registro de Tiempos (Time-Tracking) — plantilla:**
+
+| Tarea | Story Points | Tiempo Real (hrs) | Commits / PR | Notas | Día de Sprint |
+|----|--------|--------------:|----------:|-------------------------:|------:|
+| Planificación de micro-srpint 3 | - | 2 | - | - | 1
+| Separación de mono repo | - | 1 | Frontend: 2726ec7 - Backend: 8829432 - arquitectura: 18326d5 | - | 1
+| Creación de test unitarios | - | - | - | - | -
+| Mejoras de UX/UI | - | - | - | - | -
+|  | - | - | - | - | -
+|  | - | - | - | - | -
+|  | - | - | - | - | -
+
+
+
+Instrucciones para rellenar la plantilla:
+- `Tarea`: Taréa realizada (una historia de usuario o actividad en concreto del sprint)
+- `Story Points`: número ya estimado en las historias.
+- `Tiempo Real (hrs)`: tiempo acumulado real
+- `Commits / PR`: referencias a commits o enlace al PR que implementó el trabajo.
+- `Notas`: impedimentos, retrabajos, y causas de desviación.
+
+**Entrega de Valor — plantilla de evidencia (al cierre de cada micro-sprint):**
+
+
+- Resumen: 
+Micro sprint de mejoras de calidad. Incluye implementación de tests, mejoras de interfaz e integración de flujos de CI
+
+- Enlaces: 
+    - PR: 
+
+    - Branchs
+
+
+- **Observaciones finales:** 
 
 
 ## Reality Check del trabajo
