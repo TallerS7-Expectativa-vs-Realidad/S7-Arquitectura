@@ -96,7 +96,10 @@ En caso de que afecte a varios documentos, entonces se utiliza el scope genéric
 docs: update installation guide in readme and architecture docs
 ```
 
-
+### Plantillas de commits
+- feat(HU-XX): implementación básica necesaria para la HU-XX
+- feat(HU-XX): implementación de test unitarios de HU-XX
+- feat(HU-XX): implementación de test de integración de componentes de HU-XX
 
 
 ## Reglas de Pull Requests
@@ -203,6 +206,30 @@ git push --force-with-lease
 - Toda Issue debe tener vinculada la rama en la que se trabajó
 - Toda Issue debe tener el commit final que dió por finalizado el Issue
 
+## Uso de ASDD
+### construcción de los specs
+***descripción:*** genera la implementación de las especificaciones descriptas en el spec indicado con `<feature-spec>` en el servicio backend 
+```
+/implement-backend <feature-spec>
+```
+
+### implementación de funcionalidades
+***descripción:*** genera la implementación de las especificaciones descriptas en el spec indicado con `<feature-spec>` en el servicio backend 
+```
+/implement-backend <feature-spec>
+```
+
+***descripción:*** genera la implementación de las especificaciones descriptas en el spec indicado con `<feature-spec>` en el servicio frontend 
+```
+/implement-frontend <feature-spec>
+```
+
+### implementación de tests
+***Descripción:*** implementa los test unitarios en backend y frontend; e implementa los test de integración de componentes en backend, utilizando los documentos generados por el QA (`TEST_PLAN` y `TEST_CASES`) como base de información para conocer los datos de ejemplo a testear.
+Se le pasa como parámetro el spec a trabajar `<feature-spec>` y se indica ambos para trabajar tanto con frontend como con backend
+```
+/unit-testing <feature-spec> ambos implementa los test en función de la documentación de test registrada por el QA en los documentos TEST_CASES y TEST_PLAN
+```
 
 # Github Actions
 ## commitlint
