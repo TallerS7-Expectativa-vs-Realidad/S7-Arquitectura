@@ -2,6 +2,49 @@
 
 Repositorio de trabajo para el taller de la semana 7. El objetivo ya no es solo documentar el producto, sino usar esa base para construir un MVP funcional, integrado y trazable usando un flujo de trabajo compatible con ASDD.
 
+---
+
+## 🚀 Quick Start
+
+### Requisitos
+- Docker y Docker Compose instalados
+- Puertos disponibles: 5432 (PostgreSQL), 3000 (Backend), 8080 (Frontend)
+
+### Iniciar la stack completa
+
+```bash
+# 1. Iniciar la base de datos
+docker compose up -d db
+
+# 2. Construcción e inicio del Backend
+docker compose up -d backend
+
+# 3. Construcción e inicio del Frontend
+docker compose up -d frontend
+```
+
+```bash
+# 1. Todos los servicios
+docker compose up -d
+```
+
+### Acceder a la aplicación
+
+| Servicio | URL | Descripción |
+|----------|-----|-------------|
+| Frontend | http://localhost:8080 | Aplicación web |
+| Backend | http://localhost:3000/health | Health check |
+| PostgreSQL | localhost:5432 | Base de datos |
+
+### Detener servicios
+
+```bash
+docker stop backend-s7 frontend-s7 s7-arquitectura-db-1
+docker rm backend-s7 frontend-s7
+```
+
+---
+
 ## Equipo
 
 - [Alexander Molina](https://github.com/AlexRieger47) - QA

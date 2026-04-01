@@ -91,6 +91,8 @@ La estrategia será de riesgo, priorizando reglas críticas de negocio, validaci
 - Postman: apoyo para exploración manual y revalidaciones rápidas
 - pgAdmin o `psql`: verificación de trazabilidad en base de datos
 - Herramienta de Recorte (Windows): Capturas de imagen o vídeo para una mejor documentación de los casos y su posterior evaluación.
+- jest: framework de testing en backend para test unitarios y test de integración de componentes
+- vitest: framework de testing en frontend para test unitarios
 
 ## 9. Roles y responsabilidades
 
