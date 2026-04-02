@@ -115,18 +115,20 @@ Debido a la división de trabajo en distintas ramas para seguir el flujo de trab
 **Registro de Tiempos (Time-Tracking) — plantilla:**
 
 
-| Tarea                                                                                                  | Story Points | Tiempo Real (hrs) |                                                    Commits / PR | Notas | Día de Sprint |
-| ------------------------------------------------------------------------------------------------------ | ------------ | ----------------: | --------------------------------------------------------------: | ----: | ------------: |
+| Tarea | Story Points | Tiempo Real (hrs) | Commits / PR | Notas | Día de Sprint |
+| ----- | ------------ | ----------------: | -----------: | ----: | ------------: |
 | Planificación de micro-srpint | - |2 | - | - | 1 | 
 | Separación de mono repo | - | 1 | Frontend: 2726ec7 <br>Backend: 8829432<br>arquitectura: 18326d5 | - | 1 | 
-| Creación de test HU-01<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 1 | - | - | - |
-| Creación de test HU-02<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 0.5 | - | - | - |
-| Creación de test HU-03 <br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend) | - | 0.33 | - | - | - |
-| Creación de test HU-04<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 0.5 | - | - | - |
-| Creación de test HU-05<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 0.16 | - | - | - |
-| Creación de test HU-06<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 0.25 | - | - | - |
-| Mejoras de UX/UI | - | 3 | - | - | - |
-| Dockerización y generación de imágenes | - | 3 | - | - | - |
+| Creación de test HU-01<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 1 | - | - | 1 |
+| Creación de test HU-02<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 0.5 | - | - | 2 |
+| Creación de test HU-03 <br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend) | - | 0.33 | - | - | 2 |
+| Creación de test HU-04<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 0.5 | - | - | 2 |
+| Creación de test HU-05<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 0.16 | - | - | 2 |
+| Creación de test HU-06<br>- Unitarios (Frontend y backend) <br>- Integración de componentes (backend)  | - | 0.25 | - | - | 2 |
+| Mejoras de UX/UI | - | 3 | - | - | 2 |
+| Dockerización y generación de imágenes | - | 3 | - | - | 3 |
+| Reintentos de conexión a la DB | - | 0.1 | - | - | 3 |
+| Implementación de pipelines CI | - | 3 | - | - | 3 |
 
 
 

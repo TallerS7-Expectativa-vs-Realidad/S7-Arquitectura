@@ -29,6 +29,9 @@ El PR debe estar actualizado con la rama base. Si se realizó un merge a main y 
 **Require conversation resolution before merging** \
 Todos los comentarios del PR deben resolverse antes de poder haceptar el pull request
 
+**Lock branch**
+La rama es solo de lectura, no se pueden realizar push.
+
 #### Reglas inactivas:
 **Allow force pushes** \
 Desactivado para impedir reescribir el historial
@@ -37,6 +40,7 @@ Desactivado para impedir reescribir el historial
 Desactivado para impedir borrar la rama
 
 ### develop
+#### Reglas activas:
 **Require a pull request before merging** \
 Nadie puede hacer push directo a la rama develop, todo pasa por PR.
 
@@ -51,6 +55,19 @@ El código debe pasar los checks de automatización para asegurar que el código
 
 **Require branches to be up to date before merging** \
 El PR debe estar actualizado con la rama base. Si se realizó un merge a main y el PR no tiene estos cambios, se obliga a realizar un merge a la rama antes de realizar el pull request a main.
+
+**Require conversation resolution before merging** \
+Todos los comentarios del PR deben resolverse antes de poder haceptar el pull request
+
+**Lock branch**
+La rama es solo de lectura, no se pueden realizar push.
+
+#### Reglas inactivas:
+**Allow force pushes** \
+Desactivado para impedir reescribir el historial
+
+**Allow deletions** \
+Desactivado para impedir borrar la rama
 
 ## Conventional Commits
 > **feat:** \
@@ -191,7 +208,7 @@ git commit -m "update docs"
 
 3. Se corrige
 ```bash
-git commit --amend -m "docs: update installation guide"
+git commit --amend -m "docs: updategit s installation guide"
 ```
 
 4. se vuelve a subir
