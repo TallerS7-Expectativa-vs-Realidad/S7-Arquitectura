@@ -10,7 +10,7 @@ Repositorio de trabajo para el taller de la semana 7. El objetivo ya no es solo 
 - Docker y Docker Compose instalados
 - Puertos disponibles: 5432 (PostgreSQL), 3000 (Backend), 8080 (Frontend)
 
-### Iniciar la stack completa
+### Iniciar el stack completa
 
 ```bash
 # 1. Iniciar la base de datos
@@ -27,6 +27,12 @@ docker compose up -d frontend
 # 1. Todos los servicios
 docker compose up -d
 ```
+
+#### Iniciar los servicios del entorno de desarrollo dev
+```bash
+docker compose -f docker-compose.dev.yml up
+```
+
 
 ### Acceder a la aplicación
 
